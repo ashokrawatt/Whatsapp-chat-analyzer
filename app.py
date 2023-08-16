@@ -82,7 +82,7 @@ if uploaded_file is not None:
         st.pyplot(fig)
 
         # finding the busiest users in the group(Group level)
-        if selected_user == 'Overall':0
+        if selected_user == 'Overall':
             st.title('Most Busy Users')
             x,new_df = helper.most_busy_users(df)
             fig, ax = plt.subplots()
